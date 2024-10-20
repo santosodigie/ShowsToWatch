@@ -1,8 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+using System.Collections.Generic;
+
+
 PrintGreeting();
 
 Random rand = new Random();
-// string[] list_of_shows = { "Code Geass", "One Piece, Fairy Tale", "My Hero Academia", "Demon Slayer", "Kaiju no. 8", "Mashle", "Blue lock", "Charlotte", "Saiki k", "Tokyo Ghoul", "Horimiya", "Sword Art Online", "That time I got reincarnated as a slime", "Noragami", "Kill la kill", "Eminence in Shadow", "Berserk", "Hells paradise", "Elfin lied", "Spy x family", "God of high school", "Kenshin", "Shawmin king", "Fog hill of 5 elements" };
 
 Dictionary<string, List<string>> categories = new Dictionary<string, List<string>>(){
     {"Anime", new List<string> {"Code Geass", "One Piece", "Fairy Tale", "My Hero Academia"}},
@@ -16,28 +19,36 @@ Console.WriteLine("Anime - Horror - Comedy - Sci Fi");
 
 string choice = Console.ReadLine();
 
-if (choice == "Anime")
+if (categories.ContainsKey(choice))
 {
     Console.WriteLine("You have selected Anime");
+    string selectedShow = selectOption(choice, categories[choice]);
+    Console.WriteLine($"You should watch: {selectedShow}");
 }
 else if (choice == "Horror")
 {
-    Console.WriteLine("You have selected Horror");
+    Console.WriteLine("You have selected Anime");
+    string selectedShow = selectOption(choice, categories[choice]);
+    Console.WriteLine($"You should watch: {selectedShow}");
 }
 else if (choice == "Comedy")
 {
-    Console.WriteLine("You have selected Comedy");
+    Console.WriteLine("You have selected Anime");
+    string selectedShow = selectOption(choice, categories[choice]);
+    Console.WriteLine($"You should watch: {selectedShow}");
 }
 else
 {
     Console.WriteLine("Please enter a valid option");
 }
-// int index = rand.Next(list_of_shows.Length); // generates a random index within the bounds of the array
-// string pick = list_of_shows[index];
-
-// Console.WriteLine(pick);
 
 static void PrintGreeting()
 {
     Console.WriteLine("Hello, This is a simple project to help decide what show I should watch");
+}
+
+static string selectOption(string category, List<string> options)
+{
+    Random rand = new Random();
+    return options[rand.Next(options.Count)];
 }
