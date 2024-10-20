@@ -1,0 +1,15 @@
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.csproj.AssemblyReference.cache
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.AssemblyInfoInputs.cache
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.AssemblyInfo.cs
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.csproj.CoreCompileInputs.cache
+/Users/santosodigie/CSharpProjects/ShowsToWatch/bin/Debug/net7.0/ShowsToWatch
+/Users/santosodigie/CSharpProjects/ShowsToWatch/bin/Debug/net7.0/ShowsToWatch.deps.json
+/Users/santosodigie/CSharpProjects/ShowsToWatch/bin/Debug/net7.0/ShowsToWatch.runtimeconfig.json
+/Users/santosodigie/CSharpProjects/ShowsToWatch/bin/Debug/net7.0/ShowsToWatch.dll
+/Users/santosodigie/CSharpProjects/ShowsToWatch/bin/Debug/net7.0/ShowsToWatch.pdb
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.dll
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/refint/ShowsToWatch.dll
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.pdb
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ShowsToWatch.genruntimeconfig.cache
+/Users/santosodigie/CSharpProjects/ShowsToWatch/obj/Debug/net7.0/ref/ShowsToWatch.dll
